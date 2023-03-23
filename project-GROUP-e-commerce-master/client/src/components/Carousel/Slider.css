@@ -1,0 +1,17 @@
+button.rec-dot {
+  background-color: white;
+}
+
+.rec.rec-arrow {
+  border-radius: 50px;
+  background-color: white;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled {
+  background-color: black;
+}
